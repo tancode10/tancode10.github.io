@@ -1,0 +1,37 @@
+#mail{
+display: flex;
+justify-content: center;
+align-items: center;
+	/*border: 2px solid green;*/
+
+}
+#mail button{
+	border: none;
+	background-color: none;
+	/*border: 2px solid green;*/
+	font-size: 2vw;
+	text-transform: capitalize;
+	padding: 10px;
+font-family: 'Luckiest Guy', cursive;
+cursor: pointer;
+
+}
+
+#social-account{
+	/*border: 2px solid green;*/
+	display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#social-account h3{
+	text-transform: capitalize;
+font-family: 'Rubik Iso', cursive;
+
+}
+
+#email-address{
+	text-align: center;
+	font-size: 2vw;
+
+}

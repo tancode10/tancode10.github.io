@@ -1,0 +1,65 @@
+
+#heading{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*border-bottom: 1px solid red;*/
+}
+#heading h1{
+text-transform: uppercase;
+font-size: 6vw;
+font-family: 'Tulpen One', cursive;
+/*text-shadow: 1px 1px 3px crimson;*/
+word-spacing: 10px;
+}
+
+
+
+
+.blog-container{
+	/*border: 2px solid red;*/
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	flex-direction: column;
+	padding: 10px;
+	/*height: auto;*/
+}
+.blog-item{
+	border: 2px solid grey;
+	background-color: gray;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+.blog-item a{
+	text-decoration: none;
+	color: black;
+
+}
+.blog-item h1{
+font-family: 'Acme', sans-serif;
+
+
+	font-size: 4vw;
+	text-transform: capitalize;
+	color: black;	
+}
+.blog-item h3{
+	font-size: 1.5vw;
+	text-transform: capitalize;
+	color: yellow;	
+}
+.blog-item button{
+	font-size: 2vw;
+	padding: 10px;
+	border: none;
+	background-color:none;
+	border: 1px solid black;
+	background-color: crimson;
+	color: black;
+	text-transform: capitalize;
+	border-radius: 4px;
+
+}
