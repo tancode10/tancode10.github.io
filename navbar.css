@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+     /*border: 2px solid red; */
+    height: 100px;
+    background-color: black;
+}
+
+#logo {
+    background-color: darkslategrey;
+     /*border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding-left: 10px;*/
+   
+
+}
+
+#logo li {
+    list-style: none;
+
+}
+
+#logo a {
+    text-transform: uppercase;
+    font-size: 3vw;
+    text-decoration: none;
+    color: black;
+    font-family: 'Black Ops One', cursive;
+
+}
+
+#sublinks {
+    display: flex;
+     /*border: 2px solid red; */
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#sublinks li {
+    list-style: none;
+     /*border: 1px solid red; */
+    padding: 4px;
+
+}
+
+#sublinks a {
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+#sublinks a:hover{
+    text-decoration: underline;
+}
+
+#searchbar {
+     /*border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+
+
+}
+
+#search {
+    font-size: 20px;
+    /*width: 290px;*/
+    width:30vw;
+
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.555);
+    outline: none;
+    color: white;
+    padding: 4px 6px;
+}
+
+#search:hover {
+    border: 1px solid white;
+
+}
+#menubar{
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#menubarimg{
+    display: inline-block;
+    /*border:2px solid red;*/
+    width: 6.51vw;
+    /*width: 45px;*/
+    /*height: 45px*/
+
+    /*background-color: white;*/
+}
+
+
+/*cross*/
+
+#crossbar{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#crossbarimg{
+     display: inline-block;
+    /*border:2px solid red;*/
+    width: 6.51vw;
+}
+
+/* extra small devics and phones */
+@media only screen and (max-width:600px){
+     #sublinks{
+        display: none;
+    }
+    #menubar{
+    display: flex;
+}
+
+    #navbar{
+        grid-template-columns: 1fr 3fr 0.7fr
+    }
+    #search{
+        width: 50.5vw;
+    }
+     #searchbar{
+        justify-content: center;
+        padding-right:0px;
+    }
+    #menubarimg{
+        width: 7.5vw;
+    }
+     #logo {
+        padding: 0px 4px;
+     }
+    #logo a{
+        font-size: 5vw;
+    }
+     #sublinks-2 a{
+        font-size: 6vw;
+    }
+
+    
+}
+
+/* small devices {portrait tablets and large phones} */
+@media (min-width:600px) and (max-width:768px){
+    #sublinks{
+        display: none;
+    }
+    #menubar{
+    display: flex;
+}
+
+    #navbar{
+        grid-template-columns: 1fr 3fr 0.7fr
+    }
+    #search{
+        width: 50.5vw;
+    }
+     #searchbar{
+        justify-content: center;
+        padding-right:0px;
+    }
+      #logo a{
+        font-size: 4vw;
+    }
+    #sublinks-2 a{
+        font-size: 5vw;
+    }
+
+  
+}
+
+/* medium devices { landscape tablet } */
+@media (min-width:768px) and (max-width:992px){
+/*good*/
+
+}
+
+/* large devices {laptop and desktop} */
+@media (min-width:992px) and (max-width:1200px){
+  /* good  */
+
+}
+/* extra large device {large laptop and desktop} */
+@media only screen and (max-width:1200px){
+  /* good  */
+ 
+}
+
+
+[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    background-color: var(--color);
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23777'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+    background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
+}
+
+
+/*sublinks-2*/
+
+#sublinks-2 {
+    display: none;
+    /*border: 2px solid red; */
+    height: 100vh
+
+}
+
+#sublinks-2 li {
+  display: flex;
+    list-style: none;
+    border-bottom: 1px solid red;
+
+    /*padding: 4px;*/
+    justify-content: center;
+    align-items: center;
+}
+
+#sublinks-2 a {
+    text-decoration: none;
+    font-family: 'Rubik Iso', cursive;
+    text-transform: capitalize;
+    color: black;
+
+}
+
+#sublinks-2 a:hover{
+    text-decoration: underline;
+}
+

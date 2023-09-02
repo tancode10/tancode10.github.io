@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="content.css">
+    <title>Tancode</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Rubik+Iso&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+<!-- font-family: 'Julius Sans One', sans-serif;
+font-family: 'Rubik Iso', cursive;
+font-family: 'Sedgwick Ave Display', cursive; -->
+<style>
+    #embed-html-code{
+        background: url('htmlCodeImg/Embed.html.png') no-repeat center center;
+    width: 100%;
+    height: 50vw;
+    /* border: 2px solid red; */
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.87);
+    }
+</style>
+
+
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+
+    <div id="navbar">
+        <div id="logo">
+
+            <li><a href="index.html">tancode</a></li>
+        </div>
+
+
+        <div id="sublinks">
+            <li><a href="index.html">home</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="privacy.html">privacy</a></li>           
+
+        </div>
+        <!-- when width below 768px -->
+
+
+
+        <div id="searchbar">
+            <input type="search" name="search" id="search" placeholder="Search here ..." style="--color: crimson;">
+
+        </div>
+
+        <div id="menubar" onclick="showMenubar()">
+            <img src="icons/menu50.png" id="menubarimg">
+
+        </div>
+         <div id="crossbar" onclick="hideMenubar()">
+            <img src="icons/cross48.png" id="crossbarimg">
+
+        </div>
+    </div>
+
+    <div id="sublinks-2">
+        <li><a href="index.html">home</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="privacy.html">privacy</a></li>       
+    </div>
+
+    <!-- main content  -->
+    <br>
+    <div id="youtube-video">
+        
+    </div>
+    <br>
+<div id="content">
+
+
+    <h1 class="heading">html file</h1>
+    <!-- 1 -->
+        <br>
+
+    <div class="file">
+        <h3>Embed.html</h3>
+        <li><a href="html-dfiles/Embed.html" download>Click To Download</a></li>
+        <button id="copyhtml-3">click to copy!</button>
+    </div>
+
+    <div id="embed-html-code"></div>
+
+    <br>
+    <br>
+    <br>
+   
+
+</div>
+
+<div id="bottom">
+
+    <h1 class="bottom-item">tancode</h1>
+    <p  class="bottom-item">copyright<img src="icons/copyright96.png" width="20" height="20">2023 tancode.github.io</p>
+    <div id="social-link"  class="bottom-item">
+      <a href="https://youtube.com/@Tancode?si=mF6x-_8gaG6FnAJi"><img src="icons/youtube96.png"></a>
+      <a href="https://twitter.com/Too_short_Anuj"><img src="icons/twitterx100.png"></a>  
+    </div>
+
+    
+
+</div>
+<br>
+<br>
+
+
+
+<script src="index.js"></script>
+<script>
+    var copyhtml3=document.getElementById('copyhtml-3');
+copyhtml3.addEventListener('click',copyhtmldoc3);
+
+function copyhtmldoc3(){
+        copyhtml3.style.color='black';
+    copyhtml3.style.backgroundColor='white';
+    copyhtml3.style.fontWeight='bolder';
+
+    navigator.clipboard.writeText(`
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Youtube Video</title>
+    <style>
+        #video{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xr1r_F0IsgA?si=bW91JGvbQQ5zKjN-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+</body>
+</html>`)
+}
+</script>
+
+
+
+
+
+</body>
+
+</html>
