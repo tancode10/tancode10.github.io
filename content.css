@@ -1,8 +1,16 @@
-
+ #embed-html-code{
+        background: url('htmlCodeImg/Embed.html.png') no-repeat center center;
+    width: 100%;
+    height: 50vw;
+    /* border: 2px solid red; */
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.87);
+    }
 #youtube-video{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 4px;
 }
 
 #js-code-1{
@@ -191,3 +199,158 @@ justify-content:space-around;
     height: 4.839vw;
 
 }
+
+
+/*responsive*/
+
+@media only screen and (max-width:400px){
+.heading{
+            font-size: 8vw;
+        }
+         .file h3{
+            font-size: 5.6vw;
+        }
+         .file a{
+ font-size: 2.613vw;
+        }
+        .file button{
+ font-size: 2.3vw;
+
+        }
+        .file{
+    grid-template-columns: 1.5fr 1fr .5fr;
+
+        }
+        #special-file{
+    grid-template-columns: 2fr 1fr;
+
+}
+    #html-code-1{
+        height: 70vw;
+    }
+     #html-code-2{
+        height: 70vw;
+    }
+     #html-code-3{
+        height: 70vw;
+    }
+    #css-code-1{
+        height: 70vw;
+    }
+     #css-code-2{
+        height: 70vw;
+    }
+     #css-code-3{
+        height: 70vw;
+    }
+
+     #js-code-1{
+        height: 70vw;
+    }
+     #js-code-2{
+        height: 70vw;
+    }
+    #embed-html-code{
+        height: 70vw; 
+    }
+    #bottom{
+        padding: 10px 10px;
+    }
+    #bottom h1{
+font-size: 5.742vw;
+
+    }
+    #bottom p{
+font-size: 3vw;
+border: none;
+    }
+    #bottom p img{
+        width: 15px;
+        height: 15px;
+    }
+    #social-link img {
+    width: 8.839vw;
+    height: 8.839vw;
+}
+}
+
+@media (min-width:400px) and (max-width:600px){
+.heading{
+            font-size: 6vw;
+        }
+        .file h3{
+            font-size: 4.6vw;
+        }
+        .file a{
+ font-size: 2.613vw;
+        }
+        .file button{
+ font-size: 2.3vw;
+
+        }
+        .file{
+    grid-template-columns: 1.5fr 1fr .5fr;
+
+        }
+        #special-file{
+    grid-template-columns: 2fr 1fr;
+
+}
+        #html-code-1{
+        height: 70vw;
+    }
+     #html-code-2{
+        height: 70vw;
+    }
+     #html-code-3{
+        height: 70vw;
+    }
+     #css-code-1{
+        height: 70vw;
+    }
+     #css-code-2{
+        height: 70vw;
+    }
+     #css-code-3{
+        height: 70vw;
+    }
+
+
+     #js-code-1{
+        height: 70vw;
+    }
+     #js-code-2{
+        height: 70vw;
+    }
+#embed-html-code{
+        height: 70vw;
+
+}
+
+
+
+
+ #bottom{
+        padding: 10px 10px;
+    }
+    #bottom h1{
+font-size: 5.742vw;
+
+    }
+    #bottom p{
+font-size: 3vw;
+border: none;
+    }
+    #bottom p img{
+        width: 15px;
+        height: 15px;
+    }
+    #social-link img {
+    width: 8.839vw;
+    height: 8.839vw;
+}
+}
+
+
+
+
