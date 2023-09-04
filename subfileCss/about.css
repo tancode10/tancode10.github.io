@@ -1,0 +1,38 @@
+#intro{
+	font-size: 2vw;
+	text-align: center;
+font-family: 'Sedgwick Ave Display', cursive;
+word-spacing: 10px;
+
+}
+
+#address{
+	text-align: center;
+	font-size: 2vw;
+font-family: 'Julius Sans One', sans-serif;
+
+}
+
+/*responsive*/
+
+@media only screen and (max-width:400px){
+#intro {
+    font-size: 7vw;
+    word-spacing: 2px;
+}
+
+#address{
+	font-size: 6vw;
+}
+}
+
+
+@media (min-width:400px) and (max-width:600px){
+	#intro {
+    font-size: 5vw;
+    word-spacing: 6px;
+}
+#address{
+	font-size: 5vw;
+}
+}

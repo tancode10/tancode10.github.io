@@ -1,0 +1,56 @@
+
+#heading{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid red;
+}
+#heading h1{
+text-transform: uppercase;
+font-size: 8vw;
+font-family: 'Tulpen One', cursive;
+
+}
+#heading h3{
+text-transform: uppercase;
+font-size: 2vw;
+color: crimson;
+font-family: 'Luckiest Guy', cursive;
+
+word-spacing: 30px;
+
+
+}
+
+/*responsive*/
+
+@media only screen and (max-width:400px){
+
+#heading h1 {
+      font-size: 11vw;
+    
+}
+
+#heading h3{
+      font-size: 4vw;
+      word-spacing: 1vw;
+
+}
+
+}
+
+
+@media (min-width:400px) and (max-width:600px){
+	
+	#heading h1 {
+      font-size: 10vw;
+    
+}
+
+#heading h3{
+      font-size: 4vw;
+      word-spacing: 1vw;
+
+}
+}

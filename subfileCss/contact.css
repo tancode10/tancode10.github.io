@@ -1,0 +1,69 @@
+#mail{
+display: flex;
+justify-content: center;
+align-items: center;
+	/*border: 2px solid green;*/
+
+}
+#mail button{
+	border: none;
+	background-color: none;
+	/*border: 2px solid green;*/
+	font-size: 2vw;
+	text-transform: capitalize;
+	padding: 10px;
+font-family: 'Luckiest Guy', cursive;
+cursor: pointer;
+
+}
+
+#social-account{
+	/*border: 2px solid green;*/
+	display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#social-account h3{
+	text-transform: capitalize;
+font-family: 'Rubik Iso', cursive;
+
+}
+
+#email-address{
+	text-align: center;
+	font-size: 2vw;
+
+}
+
+
+/*responsive*/
+
+@media only screen and (max-width:400px){
+  #mail button{
+  	font-size: 6vw;
+  }
+  #social-account h3{
+  	font-size: 6vw;
+
+  }
+  #email-address{
+  	font-size: 4vw;
+
+  }
+}
+
+
+@media (min-width:400px) and (max-width:600px){
+	  #mail button{
+  	font-size: 5vw;
+  }
+  #social-account h3{
+  	font-size: 3vw;
+
+  }
+  #email-address{
+  	font-size: 3vw;
+
+  }
+}
