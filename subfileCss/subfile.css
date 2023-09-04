@@ -28,7 +28,7 @@ word-spacing: 30px;
 @media only screen and (max-width:400px){
 
 #heading h1 {
-      font-size: 11vw;
+      font-size: 17vw;
     
 }
 
@@ -44,7 +44,7 @@ word-spacing: 30px;
 @media (min-width:400px) and (max-width:600px){
 	
 	#heading h1 {
-      font-size: 10vw;
+      font-size: 18vw;
     
 }
 
