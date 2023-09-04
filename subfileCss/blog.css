@@ -68,7 +68,7 @@ font-family: 'Acme', sans-serif;
 
 @media only screen and (max-width:400px){
   #heading h1{
-  	font-size: 7vw;
+  	font-size: 17vw;
   }
   .blog-item h1{
   	font-size: 5vw;
@@ -86,7 +86,7 @@ font-family: 'Acme', sans-serif;
 
 @media (min-width:400px) and (max-width:600px){
 	#heading h1{
-  	font-size: 7vw;
+  	font-size: 16vw;
   }
   .blog-item h1{
   	font-size: 5vw;
