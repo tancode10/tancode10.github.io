@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="content.css">
+    <title>Tancode</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Rubik+Iso&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+<!-- font-family: 'Julius Sans One', sans-serif;
+font-family: 'Rubik Iso', cursive;
+font-family: 'Sedgwick Ave Display', cursive; -->
+
+
+
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+
+    <div id="navbar">
+        <div id="logo">
+
+            <li><a href="index.html">tancode</a></li>
+        </div>
+
+
+        <div id="sublinks">
+            <li><a href="index.html">home</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="privacy.html">privacy</a></li>           
+
+        </div>
+        <!-- when width below 768px -->
+
+
+
+        <div id="searchbar">
+            <input type="search" name="search" id="search" placeholder="Search here ..." style="--color: crimson;">
+
+        </div>
+
+        <div id="menubar" onclick="showMenubar()">
+            <img src="icons/menu50.png" id="menubarimg">
+
+        </div>
+         <div id="crossbar" onclick="hideMenubar()">
+            <img src="icons/cross48.png" id="crossbarimg">
+
+        </div>
+    </div>
+
+    <div id="sublinks-2">
+        <li><a href="index.html">home</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="privacy.html">privacy</a></li>       
+    </div>
+
+    <!-- main content  -->
+    <br>
+    <div id="youtube-video">
+        <iframe width="1160" height="315" src="https://www.youtube.com/embed/lNzKKwxZWEk?si=ARem8ma-Hrf03nkp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <br>
+<div id="content">
+
+
+    <h1 class="heading">html file</h1>
+    <!-- 1 -->
+        <br>
+
+    <div class="file">
+        <h3>tut1.html</h3>
+        <li><a href="html-dfiles/tut1.html" download>Click To Download</a></li>
+        <button id="copyhtml-n">click to copy!</button>
+    </div>
+
+    <div id="tut1"></div>
+
+    <br>
+    <br>
+    <br>
+   
+
+</div>
+
+<div id="bottom">
+
+    <h1 class="bottom-item">tancode</h1>
+    <p  class="bottom-item">copyright<img src="icons/copyright96.png" width="20" height="20">2023 tancode.github.io</p>
+    <div id="social-link"  class="bottom-item">
+      <a href="https://youtube.com/@Tancode?si=mF6x-_8gaG6FnAJi"><img src="icons/youtube96.png"></a>
+      <a href="https://twitter.com/Too_short_Anuj"><img src="icons/twitterx100.png"></a>  
+    </div>
+
+    
+
+</div>
+<br>
+<br>
+
+
+
+<script src="index.js"></script>
+<script>
+    var copyhtmln=document.getElementById('copyhtml-n');
+copyhtmln.addEventListener('click',copyhtmldocn);
+
+function copyhtmldocn(){
+        copyhtmln.style.color='black';
+    copyhtmln.style.backgroundColor='white';
+    copyhtmln.style.fontWeight='bolder';
+
+    navigator.clipboard.writeText(`
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tut1</title>
+    <style>
+        input{
+            /* -webkit-text-security:square; */
+            /* -webkit-text-security:circle; */
+            /* -webkit-text-security:disc; */
+            -webkit-text-security:none;
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+
+</body>
+</html>`)
+}
+</script>
+
+
+
+
+
+</body>
+
+</html>
