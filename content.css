@@ -1,4 +1,53 @@
-
+ 
+#html-tut4-1{
+   background: url('htmlCodeImg/tut4.html.png') no-repeat center center;
+    width: 100%;
+    height: 50vw;
+    /* border: 2px solid red; */
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.87);
+    
+}
+#css-tut4-1{
+ background: url('cssCodeImg/tut4a.css.png') no-repeat center center;
+    width: 100%;
+    height: 50vw;
+    /* border: 2px solid red; */
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+#css-tut4-2{
+ background: url('cssCodeImg/tut4b.css.png') no-repeat center center;
+    width: 100%;
+    height: 50vw;
+    /* border: 2px solid red; */
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+#js-tut4-1{
+ background: url('jsCodeImg/tut4a.js.png') no-repeat center center;
+    width: 100%;
+    height: 50vw;
+    /* border: 2px solid red; */
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+#js-tut4-2{
+ background: url('jsCodeImg/tut4b.js.png') no-repeat center center;
+    width: 100%;
+    height: 50vw;
+    /* border: 2px solid red; */
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+#js-tut4-3{
+ background: url('jsCodeImg/tut4c.js.png') no-repeat center center;
+    width: 100%;
+    height: 50vw;
+    /* border: 2px solid red; */
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.87);
+}
  
  #tut2{
         background: url('htmlCodeImg/tut2.html.png') no-repeat center center;
@@ -280,6 +329,44 @@ justify-content:space-around;
         height: 70vw;
 
 }
+
+
+
+   
+#html-tut4-1{
+        height: 70vw;
+
+}
+#css-tut4-1{
+        height: 70vw;
+
+}
+#css-tut4-2{
+        height: 70vw;
+    
+}
+#js-tut4-1{
+        height: 70vw;
+
+}
+#js-tut4-2{
+        height: 70vw;
+    
+}
+#js-tut4-3{
+        height: 70vw;
+    
+}
+
+
+
+
+
+
+
+
+
+ 
     #bottom{
         padding: 10px 10px;
     }
@@ -363,6 +450,35 @@ border: none;
 }
 
 
+   
+#html-tut4-1{
+        height: 70vw;
+
+}
+#css-tut4-1{
+        height: 70vw;
+
+}
+#css-tut4-2{
+        height: 70vw;
+    
+}
+#js-tut4-1{
+        height: 70vw;
+
+}
+#js-tut4-2{
+        height: 70vw;
+    
+}
+#js-tut4-3{
+        height: 70vw;
+    
+}
+
+
+
+ 
 
 
  #bottom{
