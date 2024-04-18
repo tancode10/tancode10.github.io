@@ -33,6 +33,19 @@ function hideMenubar() {
 
 }
 
+var menubar=document.getElementById('menubar');
+menubar.addEventListener('click',()=>{
+	document.getElementById('intro4172024').style.display='none';
+    document.getElementById('bottom').style.display='none';
+
+});
+var crossbar=document.getElementById('crossbar');
+crossbar.addEventListener('click',()=>{
+	document.getElementById('intro4172024').style.display='block';
+    document.getElementById('bottom').style.display='grid';
+
+});
+
 // copy file 
 // p1
 var copyhtml1=document.getElementById('copyhtml-1');
