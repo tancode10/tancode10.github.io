@@ -6,10 +6,9 @@ function showMenubar() {
 	document.getElementById('sublinks-2').style.display='grid';
 	document.getElementById('menubar').style.display='none';
 	document.getElementById('crossbar').style.display='flex';
-    document.getElementById('intro4172024').style.display='none';
-    document.getElementById('bottom').style.display='none';
 	document.getElementById('content').style.display='none';
-    document.getElementById('youtube-video').style.display='none';
+        document.getElementById('youtube-video').style.display='none';
+        document.getElementById('bottom').style.display='none';
 
 
 
@@ -24,11 +23,9 @@ function hideMenubar() {
 	document.getElementById('sublinks-2').style.display='none';
 	document.getElementById('menubar').style.display='flex';
 	document.getElementById('crossbar').style.display='none';
-    document.getElementById('intro4172024').style.display='block';
-    document.getElementById('bottom').style.display='grid';
 	document.getElementById('content').style.display='block';
-    document.getElementById('youtube-video').style.display='flex';
-
+        document.getElementById('youtube-video').style.display='flex';
+        document.getElementById('bottom').style.display='grid';
 
 
 
